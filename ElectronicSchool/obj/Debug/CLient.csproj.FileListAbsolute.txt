@@ -1,0 +1,15 @@
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\bin\Debug\ElectronicSchool.exe.config
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\bin\Debug\ElectronicSchool.exe
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\bin\Debug\ElectronicSchool.pdb
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\CLient.csprojAssemblyReference.cache
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\MainWindow.g.cs
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\App.g.cs
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\ElectronicSchool_MarkupCompile.cache
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\ElectronicSchool_MarkupCompile.lref
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\MainWindow.baml
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\ElectronicSchool.g.resources
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\ElectronicSchool.Properties.Resources.resources
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\CLient.csproj.GenerateResource.cache
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\CLient.csproj.CoreCompileInputs.cache
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\ElectronicSchool.exe
+C:\GitProjects\dev1\Electronic-school-system\ElectronicSchool\obj\Debug\ElectronicSchool.pdb
