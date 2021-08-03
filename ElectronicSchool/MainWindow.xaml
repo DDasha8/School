@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ElectronicSchool"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Ученик" Height="450" Width="800"
+        FontSize="16"
+        >
     <Grid>
-        
+        <Label Content="Просмотр расписания" Margin="0,0,613,380"/>
+        <Label Content="Просмотр оценок" Margin="179,0,472,388"/>
+        <Label Content="Загрузка дз" Margin="443,0,250,380"/>
+        <Label Content="Просмотр дз" Margin="325,0,349,377" RenderTransformOrigin="0.405,0.485"/>
     </Grid>
 </Window>
