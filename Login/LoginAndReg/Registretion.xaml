@@ -1,11 +1,11 @@
-﻿<Window x:Class="Login.Login.Entry"
+﻿<Window x:Class="Login.LoginAndReg.Registretion"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Login.Login"
+        xmlns:local="clr-namespace:Login.LoginAndReg"
         mc:Ignorable="d"
-        Title="Entry" Height="450" Width="800">
+        Title="Registretion" Height="450" Width="800">
     <Grid>
         
     </Grid>

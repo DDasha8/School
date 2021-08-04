@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Login.Login
+namespace Login.LoginAndReg
 {
     /// <summary>
-    /// Логика взаимодействия для Entry.xaml
+    /// Логика взаимодействия для Registretion.xaml
     /// </summary>
-    public partial class Entry : Window
+    public partial class Registretion : Window
     {
-        public Entry()
+        public Registretion()
         {
             InitializeComponent();
         }
