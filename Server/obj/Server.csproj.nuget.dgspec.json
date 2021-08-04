@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitProjects\\Paul\\Electronic-school-system\\Server\\Server.csproj": {}
+    "C:\\GitTeam\\Paul\\Electronic-school-system\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\GitProjects\\Paul\\Electronic-school-system\\Server\\Server.csproj": {
+    "C:\\GitTeam\\Paul\\Electronic-school-system\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitProjects\\Paul\\Electronic-school-system\\Server\\Server.csproj",
+        "projectUniqueName": "C:\\GitTeam\\Paul\\Electronic-school-system\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\GitProjects\\Paul\\Electronic-school-system\\Server\\Server.csproj",
+        "projectPath": "C:\\GitTeam\\Paul\\Electronic-school-system\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\GitProjects\\Paul\\Electronic-school-system\\Server\\obj\\",
+        "outputPath": "C:\\GitTeam\\Paul\\Electronic-school-system\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",

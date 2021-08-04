@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3LSRutfj+yswe52Vnxuti6IEXlrYNbAK314lnpp6jdW5rspc4IA4Loq/aFAXtmQWftIfTqxmGyPI9UmE/XBn5w==",
+  "dgSpecHash": "0K4AT0WO6u7utNaLGmMtVYYEz6ffgr5iCq0z1rjx3TggoUQ5sJ507TBtI22UtX+ai/bwFfJ+Ep1Pae72uEEv5w==",
   "success": true,
-  "projectFilePath": "C:\\GitProjects\\Paul\\Electronic-school-system\\Server\\Server.csproj",
+  "projectFilePath": "C:\\GitTeam\\Paul\\Electronic-school-system\\Server\\Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
