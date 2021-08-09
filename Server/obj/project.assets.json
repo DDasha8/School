@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student\\Desktop\\gitHub\\dev3\\Electronic-school-system\\Server\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\student\\Desktop\\Project\\dev3\\Electronic-school-system\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\student\\Desktop\\gitHub\\dev3\\Electronic-school-system\\Server\\Server.csproj",
+      "projectPath": "C:\\Users\\student\\Desktop\\Project\\dev3\\Electronic-school-system\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student\\Desktop\\gitHub\\dev3\\Electronic-school-system\\Server\\obj\\",
+      "outputPath": "C:\\Users\\student\\Desktop\\Project\\dev3\\Electronic-school-system\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
