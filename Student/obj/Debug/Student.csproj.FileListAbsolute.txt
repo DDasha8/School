@@ -13,3 +13,18 @@ C:\Users\student.LAN\Desktop\Git\dev2\Electronic-school-system\ElectronicSchool\
 C:\Users\student.LAN\Desktop\Git\dev2\Electronic-school-system\ElectronicSchool\obj\Debug\Student.csproj.CoreCompileInputs.cache
 C:\Users\student.LAN\Desktop\Git\dev2\Electronic-school-system\ElectronicSchool\obj\Debug\ElectronicSchool.exe
 C:\Users\student.LAN\Desktop\Git\dev2\Electronic-school-system\ElectronicSchool\obj\Debug\ElectronicSchool.pdb
+C:\Users\student\Documents\project version 2\School\Student\bin\Debug\ElectronicSchool.exe.config
+C:\Users\student\Documents\project version 2\School\Student\bin\Debug\ElectronicSchool.exe
+C:\Users\student\Documents\project version 2\School\Student\bin\Debug\ElectronicSchool.pdb
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\Student.csprojAssemblyReference.cache
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\MainWindow.g.cs
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\App.g.cs
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\ElectronicSchool_MarkupCompile.cache
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\ElectronicSchool_MarkupCompile.lref
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\MainWindow.baml
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\ElectronicSchool.g.resources
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\ElectronicSchool.Properties.Resources.resources
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\Student.csproj.GenerateResource.cache
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\Student.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\ElectronicSchool.exe
+C:\Users\student\Documents\project version 2\School\Student\obj\Debug\ElectronicSchool.pdb
