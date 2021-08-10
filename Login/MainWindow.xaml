@@ -74,8 +74,9 @@
                     <ComboBoxItem Content="Ученик"/>
                     <ComboBoxItem Content="Родитель" />
                 </ComboBox>
-
+               
             </StackPanel>
+            <Label Content="asd" Visibility="Hidden"/>
             <Button x:Name="closeButt" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Top"
                     Background="Transparent" BorderBrush="{x:Null}" Click="closeButt_Click">
                 <materialDesign:PackIcon Kind="close" />
