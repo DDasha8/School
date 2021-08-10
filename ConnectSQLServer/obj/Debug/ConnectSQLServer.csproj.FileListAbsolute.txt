@@ -1,0 +1,7 @@
+C:\Users\student\Documents\project version 2\School\ConnectSQLServer\obj\Debug\ConnectSQLServer.csprojAssemblyReference.cache
+C:\Users\student\Documents\project version 2\School\ConnectSQLServer\obj\Debug\ConnectSQLServer.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\project version 2\School\ConnectSQLServer\bin\Debug\ConnectSQLServer.exe.config
+C:\Users\student\Documents\project version 2\School\ConnectSQLServer\bin\Debug\ConnectSQLServer.exe
+C:\Users\student\Documents\project version 2\School\ConnectSQLServer\bin\Debug\ConnectSQLServer.pdb
+C:\Users\student\Documents\project version 2\School\ConnectSQLServer\obj\Debug\ConnectSQLServer.exe
+C:\Users\student\Documents\project version 2\School\ConnectSQLServer\obj\Debug\ConnectSQLServer.pdb

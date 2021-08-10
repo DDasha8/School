@@ -1,12 +1,25 @@
 ﻿<Window x:Class="Teacher.MainWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Teacher"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Учитель" Height="800" Width="1200" WindowStyle="None" Background="Transparent" AllowsTransparency="True" MouseDown="Window_MouseDown" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+
+        <Border CornerRadius="10" Grid.RowSpan="2">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#89253e" Offset="0.0"/>
+                    <GradientStop Color="#3a6186" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <Button x:Name="closeButt" HorizontalAlignment="Right" VerticalAlignment="Top"
+                    Background="Transparent" BorderBrush="{x:Null}" Click="closeButt_Click" RenderTransformOrigin="0.5,0.5" Height="62" Width="76">
+            <materialDesign:PackIcon Kind="close" />
+        </Button>
     </Grid>
 </Window>
