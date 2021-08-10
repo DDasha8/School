@@ -3,10 +3,125 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Login"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:local="clr-namespace:Login"        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d" AllowsTransparency="True" Background="Transparent"
+        WindowStyle="None" ResizeMode="NoResize"
+        MouseDown="Window_MouseDown"
+        Title="Entry" Height="473.333" Width="380">
     <Grid>
-        <Button x:Name="b1" Content="b1" Click="b1_Click"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+
+            <Border CornerRadius="10" Grid.RowSpan="2">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#89253e" Offset="0.0"/>
+                        <GradientStop Color="#3a6186" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <TextBlock Text="Login"
+                           FontWeight="Light"
+                           FontFamily="helvetica"
+                           FontSize="22"
+                           Foreground="White"
+                           HorizontalAlignment="Center"/>
+                
+            </StackPanel>
+            
+            <StackPanel Margin="190 97 0 0">
+                <materialDesign:PackIcon Kind="School" Height="25" Width="29" />
+            </StackPanel>
+            
+            <StackPanel Grid.Row="0" Orientation="Vertical">
+                <!--<ComboBox materialDesign:HintAssist.Hint="Выберите роль" x:Name="accountBox" Margin="60 170"
+                  Background="Transparent" Foreground="White" FontSize="20" FontWeight="Light" 
+                          FontFamily="Helvetica">
+
+                      <ComboBoxItem Content="Войти как Директор" Background="#89253e"/>
+                        <ComboBoxItem Content="Войти как Учитель" Background="#89253e"/>
+                        <ComboBoxItem Content="Войти как Ученик" Background="#89253e"/>
+                        <ComboBoxItem Content="Войти как Родитель" Background="#89253e"/>
+                        
+                </ComboBox>-->
+                
+                <!--<ComboBox materialDesign:HintAssist.Hint="Выберите роль" x:Name="accountBox" Margin="60 170"
+                  Background="Transparent" Foreground="White" FontSize="20" FontWeight="Light" 
+                          FontFamily="Helvetica">
+
+                      <ComboBoxItem Content="Войти как Директор" Background="#89253e"/>
+                        <ComboBoxItem Content="Войти как Учитель" Background="#89253e"/>
+                        <ComboBoxItem Content="Войти как Ученик" Background="#89253e"/>
+                        <ComboBoxItem Content="Войти как Родитель" Background="#89253e"/>
+                        
+                </ComboBox>-->
+                <ComboBox
+                    materialDesign:HintAssist.Hint="Войти как"
+                    materialDesign:HintAssist.HintOpacity=".26"
+                    IsEditable="True" Margin="60 180" Background="Transparent" FontFamily="Helvetica"
+                    FontSize="20">
+                    <ComboBoxItem Content="Директор" Background="Transparent"/>
+                    <ComboBoxItem Content="Учитель"/>
+                    <ComboBoxItem Content="Ученик"/>
+                    <ComboBoxItem Content="Родитель" />
+                </ComboBox>
+
+            </StackPanel>
+            <Button x:Name="closeButt" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Top"
+                    Background="Transparent" BorderBrush="{x:Null}" Click="closeButt_Click">
+                <materialDesign:PackIcon Kind="close" />
+            </Button>
+
+            <StackPanel Grid.Row="1" >
+                <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="nameField" materialDesign:HintAssist.Hint="Username"  FontFamily="Helvetica" FontWeight="Light"
+                              FontSize="20" HorizontalAlignment="Center" 
+                             Foreground="White" Background="Transparent" BorderThickness="0"
+                             Margin="62 0 0 0"                                                   
+                              Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="244" />
+
+                </StackPanel>
+                <Border Width="250"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5"/>
+
+                <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                    <PasswordBox materialDesign:HintAssist.Hint="Password" FontFamily="Helvetica"
+                             FontWeight="Light"                            
+                             FontSize="20"
+                             HorizontalAlignment="Center"
+                             Foreground="White"
+                             Background="Transparent"
+                             BorderThickness="0"
+                             Margin="63,0,0,0"
+                             Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"/>
+
+                </StackPanel>
+                <Border Width="250"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5"/>
+
+
+                <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
+                    <Button x:Name="loginButt" Width="100" Height="40" Content="LOGIN" Margin="60,0,60,0"
+                            Background="#3a6186" BorderBrush="{x:Null}"/>
+                    <Button x:Name="regButt" Width="100" Height="40" Content="REGISTER" Background="Transparent"
+                            BorderBrush="{x:Null}"/>
+
+                </StackPanel>
+
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
