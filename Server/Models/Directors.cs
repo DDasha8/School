@@ -8,8 +8,11 @@ namespace Server.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Passw { get; set; }
+
+        public string Passw { get; set; }
+
         public int Phone { get; set; }
+
         public string Email { get; set; }
     }
 }
