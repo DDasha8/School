@@ -81,7 +81,7 @@
                     Background="Transparent" BorderBrush="{x:Null}" Click="closeButt_Click">
                 <materialDesign:PackIcon Kind="close" />
             </Button>
-
+            <Label Content="assd" Visibility="Hidden"/>
             <StackPanel Grid.Row="1" >
                 <StackPanel Orientation="Horizontal">
                     <TextBox x:Name="nameField" materialDesign:HintAssist.Hint="Username"  FontFamily="Helvetica" FontWeight="Light"
