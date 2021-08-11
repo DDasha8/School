@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{7B05C2DC-0B4A-45B4-BB17-7CE622D69AD4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teacher", "Teacher\Teacher.csproj", "{9CDD9B02-C41C-4662-BC22-8E01797855E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Director", "Director\Director.csproj", "{9C2CFFF4-520D-4E04-B461-566282CC3BAE}"
@@ -32,10 +30,6 @@ Global
 		{6426B704-B23F-49A1-ADFE-8B33AC2E6B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6426B704-B23F-49A1-ADFE-8B33AC2E6B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6426B704-B23F-49A1-ADFE-8B33AC2E6B19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B05C2DC-0B4A-45B4-BB17-7CE622D69AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B05C2DC-0B4A-45B4-BB17-7CE622D69AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B05C2DC-0B4A-45B4-BB17-7CE622D69AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B05C2DC-0B4A-45B4-BB17-7CE622D69AD4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9CDD9B02-C41C-4662-BC22-8E01797855E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9CDD9B02-C41C-4662-BC22-8E01797855E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CDD9B02-C41C-4662-BC22-8E01797855E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
