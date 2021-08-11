@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Documents\\project version 2\\School\\Server\\Server.csproj": {}
+    "C:\\GitHub\\Paul3\\School\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Documents\\project version 2\\School\\Server\\Server.csproj": {
+    "C:\\GitHub\\Paul3\\School\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Documents\\project version 2\\School\\Server\\Server.csproj",
+        "projectUniqueName": "C:\\GitHub\\Paul3\\School\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\Users\\student\\Documents\\project version 2\\School\\Server\\Server.csproj",
+        "projectPath": "C:\\GitHub\\Paul3\\School\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Documents\\project version 2\\School\\Server\\obj\\",
+        "outputPath": "C:\\GitHub\\Paul3\\School\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
