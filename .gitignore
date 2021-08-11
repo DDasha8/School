@@ -1,1 +1,8 @@
 .vs/
+Server/Data/ElectronicSchool.mdf
+Server/Data/ElectronicSchool_log.ldf
+Server/obj/Debug/netcoreapp3.1/Server.assets.cache
+Server/obj/Debug/netcoreapp3.1/Server.csprojAssemblyReference.cache
+Server/obj/Server.csproj.nuget.dgspec.json
+Server/obj/project.assets.json
+Server/obj/project.nuget.cache
