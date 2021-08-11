@@ -20,3 +20,31 @@ C:\Users\student\Documents\project version 2\School\Teacher\obj\Debug\Teacher.cs
 C:\Users\student\Documents\project version 2\School\Teacher\obj\Debug\Teacher.csproj.CopyComplete
 C:\Users\student\Documents\project version 2\School\Teacher\obj\Debug\Teacher.exe
 C:\Users\student\Documents\project version 2\School\Teacher\obj\Debug\Teacher.pdb
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\Teacher.exe.config
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\Teacher.exe
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\Teacher.pdb
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\MaterialDesignColors.dll
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\MaterialDesignColors.pdb
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\Teacher.csprojAssemblyReference.cache
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\MainWindow.g.cs
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\App.g.cs
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\Teacher_MarkupCompile.cache
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\Teacher_MarkupCompile.lref
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\App.baml
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\MainWindow.baml
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\Teacher.g.resources
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\Teacher.Properties.Resources.resources
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\Teacher.csproj.GenerateResource.cache
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\Teacher.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\Teacher.csproj.CopyComplete
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\Teacher.exe
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\obj\Debug\Teacher.pdb
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\EntityFramework.dll
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\EntityFramework.xml
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\student\Desktop\Project\Dasha\School\Teacher\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
