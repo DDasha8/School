@@ -7,9 +7,17 @@
         xmlns:local="clr-namespace:Teacher"
         mc:Ignorable="d"
         Title="Учитель" Height="800" Width="1200" WindowStyle="None" Background="Transparent" AllowsTransparency="True" MouseDown="Window_MouseDown" WindowStartupLocation="CenterScreen">
-    <Grid>
 
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Trebuchet MS"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#5E9193"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
         <Border CornerRadius="10" Grid.RowSpan="2">
+            <Image x:Name="LogoImg" Source="logo.png" Margin="503,10,503,668" HorizontalAlignment="Center"/>
             <Border.Background>
                 <LinearGradientBrush>
                     <GradientStop Color="#89253e" Offset="0.0"/>
@@ -17,8 +25,61 @@
                 </LinearGradientBrush>
             </Border.Background>
         </Border>
+
+        <Grid Height="70" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 0 200 0">
+            <TextBlock Text="Профиль" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 20 0" FontFamily="Trebuchet MS" Height="30" Grid.Column="4" ></TextBlock>
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="235*" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Grid Width="300" HorizontalAlignment="Left" Background="#00000000">
+            <StackPanel>
+                <Grid Height="150" Background="Black" OpacityMask="Black" Opacity="0.6" >
+                    <Button x:Name="ButtonCloseMenu" VerticalAlignment="Top" HorizontalAlignment="Right" Width="50" Height="50" Background="White" BorderBrush="{x:Null}" Margin="0 0 0 0" Visibility="Collapsed" >
+                        <materialDesign:PackIcon Kind="ArrowLeft" Width="40" Height="40"></materialDesign:PackIcon>
+                    </Button>
+                    <Button x:Name="ButtonOpenMenu" VerticalAlignment="Top" HorizontalAlignment="Right" Width="50" Height="50" Background="White" BorderBrush="{x:Null}" Margin="0 0 0 0" >
+                        <materialDesign:PackIcon Kind="Menu" Width="40" Height="40"></materialDesign:PackIcon>
+                    </Button>
+
+                </Grid>
+                <ListView  Background="Black" OpacityMask="Black" Opacity="0.6">
+                    <ListViewItem Height="60" Background="Black" Opacity="40">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ViewDashboard" Width="25" Height="25" Background="White"/>
+                            <TextBlock Text="Главная" FontSize="20" Margin="15 0 15 0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Background="Black" Opacity="40">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ViewDashboard" Width="25" Height="25" Background="White"/>
+                            <TextBlock Text="Журнал активности" FontSize="20" Margin="15 0 15 0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Background="Black" Opacity="40">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ViewDashboard" Width="25" Height="25" Background="White"/>
+                            <TextBlock Text="Журнал оценок" FontSize="20" Margin="15 0 15 0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Background="Black" Opacity="40">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ViewDashboard" Width="25" Height="25" Background="White"/>
+                            <TextBlock Text="Комментарии" FontSize="20" Margin="15 0 15 0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Background="Black" Opacity="40">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ViewDashboard" Width="25" Height="25" Background="White"/>
+                            <TextBlock Text="Связаться с родителями" FontSize="20" Margin="15 0 15 0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Background="Black" Opacity="40"></ListViewItem>
+                </ListView>
+            </StackPanel>
+        </Grid>
         <Button x:Name="closeButt" HorizontalAlignment="Right" VerticalAlignment="Top"
-                    Background="Transparent" BorderBrush="{x:Null}" Click="closeButt_Click" RenderTransformOrigin="0.5,0.5" Height="62" Width="76">
+                    Background="Transparent" BorderBrush="Black" Click="closeButt_Click" RenderTransformOrigin="0.5,0.5" Height="52" Width="66" Foreground="White">
             <materialDesign:PackIcon Kind="close" />
         </Button>
     </Grid>

@@ -23,6 +23,7 @@ namespace Teacher
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void closeButt_Click(object sender, RoutedEventArgs e)

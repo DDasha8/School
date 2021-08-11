@@ -22,6 +22,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student", "Student\Student.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectSQLServer", "ConnectSQLServer\ConnectSQLServer.csproj", "{9CAE3275-5D61-4247-AE88-C19CE32E7D40}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fonts", "Fonts", "{6446FF29-52EA-4DE1-8ADA-3742E93CA2E5}"
+	ProjectSection(SolutionItems) = preProject
+		Fonts\Montserrat-Black.ttf = Fonts\Montserrat-Black.ttf
+		Fonts\Montserrat-BlackItalic.ttf = Fonts\Montserrat-BlackItalic.ttf
+		Fonts\Montserrat-Bold.ttf = Fonts\Montserrat-Bold.ttf
+		Fonts\Montserrat-BoldItalic.ttf = Fonts\Montserrat-BoldItalic.ttf
+		Fonts\Montserrat-ExtraBold.ttf = Fonts\Montserrat-ExtraBold.ttf
+		Fonts\Montserrat-ExtraBoldItalic.ttf = Fonts\Montserrat-ExtraBoldItalic.ttf
+		Fonts\Montserrat-ExtraLight.ttf = Fonts\Montserrat-ExtraLight.ttf
+		Fonts\Montserrat-ExtraLightItalic.ttf = Fonts\Montserrat-ExtraLightItalic.ttf
+		Fonts\Montserrat-Italic.ttf = Fonts\Montserrat-Italic.ttf
+		Fonts\Montserrat-Light.ttf = Fonts\Montserrat-Light.ttf
+		Fonts\Montserrat-LightItalic.ttf = Fonts\Montserrat-LightItalic.ttf
+		Fonts\Montserrat-Medium.ttf = Fonts\Montserrat-Medium.ttf
+		Fonts\Montserrat-MediumItalic.ttf = Fonts\Montserrat-MediumItalic.ttf
+		Fonts\Montserrat-Regular.ttf = Fonts\Montserrat-Regular.ttf
+		Fonts\Montserrat-SemiBold.ttf = Fonts\Montserrat-SemiBold.ttf
+		Fonts\Montserrat-SemiBoldItalic.ttf = Fonts\Montserrat-SemiBoldItalic.ttf
+		Fonts\Montserrat-Thin.ttf = Fonts\Montserrat-Thin.ttf
+		Fonts\Montserrat-ThinItalic.ttf = Fonts\Montserrat-ThinItalic.ttf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
