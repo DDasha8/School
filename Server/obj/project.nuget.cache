@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VUbbCuh3vVjJcFt9ki2ULD5mOxAe1ZZ8QQPQlQpUGRaOg3eznBR++8YQS+5+XV0o+vNxBkl3RIUT0tNAKZpRpw==",
+  "dgSpecHash": "U5JE3LMqblDRLq+Ys345TlAfR9/li1LKwluroIvbFLladDnpi80FjPB0DsrLcmCrcXgbXvoLUyLKGHhRmKYTig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\student\\Documents\\project version 2\\School\\Server\\Server.csproj",
+  "projectFilePath": "C:\\GitHub\\Paul3\\School\\Server\\Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
