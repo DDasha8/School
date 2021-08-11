@@ -67,6 +67,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\202108111533174_FirstMigration.cs" />
+    <Compile Include="Migrations\202108111533174_FirstMigration.Designer.cs">
+      <DependentUpon>202108111533174_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Attendance.cs" />
     <Compile Include="Models\Comments.cs" />
     <Compile Include="Models\Directors.cs" />
@@ -97,10 +102,10 @@
       <DependentUpon>ElectronicSchool.mdf</DependentUpon>
     </Content>
     <Content Include="ElectronicSchool.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="ElectronicSchool_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>ElectronicSchool.mdf</DependentUpon>
     </Content>
   </ItemGroup>
@@ -115,6 +120,11 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202108111533174_FirstMigration.resx">
+      <DependentUpon>202108111533174_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

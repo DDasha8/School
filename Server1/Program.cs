@@ -5,11 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
+using Server1.Models;
 
 namespace Server1
 {
     class Program
     {
+        //// для проверки предмета
+        //static void Main(string[] arg)
+        //{
+        //    Model1 db = new Model1();
+
+        //    db.Subjects.Add(new Subjects() { Name = "C++" });
+
+        //    var subjects = db.Subjects.ToList();
+        //    foreach (var subject in subjects)
+        //        Console.WriteLine("OK");
+        //}
+
+
         static int port = 9001; // порт для приема входящих запросов
         static void Main(string[] args)
         {
